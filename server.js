@@ -52,7 +52,7 @@ socket.on('updateRooms', (room)=>{
 
 })
 
-
+//section completed
 app.use(express.static('public'));
 
 server.listen(4000, ()=>{
