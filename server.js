@@ -45,7 +45,7 @@ socket.on('updateRooms', (room)=>{
 
     socket.broadcast //BROADCAST METHOD WILL TELL ALL THE USER, IF SOMEONE join THE ROOM
     .to(socket.currentRoom)
-    .emit('updateChat', 'INFO', socket.username + ' has joined');
+    .emit('updateChat', 'INFO', socket.username + ' has joined room');
 
 })
 

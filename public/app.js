@@ -49,7 +49,7 @@ if(username === 'INFO'){
 };
 chatDisplay.scrollTop = chatDisplay.scrollHeight; //scroll at the bottom, new message at bottom;
  
-socket.on('updateroom')
+
 
 
 })
